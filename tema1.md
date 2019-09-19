@@ -335,3 +335,32 @@ video/H264            | Video con codificación H.264
 ---
 
 # Mis Apuntes
+
+## 
+
+### 
+
+Hay mas protocolo a parte del http, como por ejemplo ftp o dns y ssh. Cada uno permite algo. ftp permite la transferencia de archivo, DNS resolucion de nombres y SSH conexion remota por terminal.
+La mayoria de los son cliente/servidor. Los servicios p2p
+
+SMTP es para enviar correos y tanto el POP y el IMAP son para recibir correos.
+RIP lo suele usar los enrutadores.
+OSPF se usa para enrutar y busca la forma mas rapida.
+BGT es para enrutar, pero solo enruta algunos nodos. Es un protocolo para comunicarse entre distintos sistemas autonomos(redes). Todas las redes se conectan con BGT.
+Telnet no se usa apenas. Servia para acceso remoto.
+SSH es para conexion remota por terminal
+VNC es un protocolo abierto y existe muchas variantes.
+RDP es de microsoft, aunque funciona tambien en linux.
+
+La URL es el localizador uniforma de recursos. La forma basica es **protocolo://servidor:puerto/ruta/recurso**. En algunas casos podemos incluir parametros, credenciales etc.
+El puerto por defecto en http es 80 y en https es 443.
+
+Para que funcione https debe tener un sertificado digital. El protocolo no guarda nada por eso estan las cookies. Las cookies se guardan en el cliente
+json es para enviar datos.
+
+
+
+
+
+
+
