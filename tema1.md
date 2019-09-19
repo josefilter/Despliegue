@@ -355,8 +355,41 @@ RDP es de microsoft, aunque funciona tambien en linux.
 La URL es el localizador uniforma de recursos. La forma basica es **protocolo://servidor:puerto/ruta/recurso**. En algunas casos podemos incluir parametros, credenciales etc.
 El puerto por defecto en http es 80 y en https es 443.
 
-Para que funcione https debe tener un sertificado digital. El protocolo no guarda nada por eso estan las cookies. Las cookies se guardan en el cliente
+Para que funcione https debe tener un certificado digital. El protocolo no guarda nada por eso estan las cookies. Las cookies se guardan en el cliente
 json es para enviar datos.
+
+Las aplicaciones se dividen en capa:
+ -Capa de presentacion: 
+ -Capa de negocio: 
+ -Capa de acceso a datos: No existe en todas las aplicaciones. Es donde se accede a los datos.
+
+javascript es estatico porque la pagina es la misma ya que lo que hace JS es mostrarte o dejar de mostrarte algo, pero la pagina es la misma.
+
+tomcat es un contenedor de servlets
+
+Hay dos tipos de escalados:
+  -Vertical: Servidor mas grande (mas CPU y mas memoria)
+  -Horizontal: Mas servidores (en vez de mejorar un servidor se aumenta el numero de servidores)
+
+Tipos de servidores:
+  -sin virtualizacion: No se puede escalar horizontal
+    -servidor dedicado: servidor personal
+    -servidor compartido: 
+  -Con virtualizacion:
+    -servidor virtual: 
+    -nube: 
+    
+La nube ofrece: 
+  -IaaS: Infraestructura como servicio. Te dan la maquina virtual y tu te conectas mediante ssh y montas apache o lo que quieras y el certificado digital.
+  -PaaS:  
+  -SaaS: 
+
+
+
+
+
+
+
 
 
 
