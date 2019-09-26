@@ -329,3 +329,27 @@ Con el comando service solo funciona con start, restart, stop, status
 *a2emsite* habilita sitio
 
 Todos los sitios pueden ir por el mismo puerto
+
+todo el trafico que vaya por https va cifrado. 
+Funciona en el puerto 443 no en el 80
+Necesita un certificado X.509
+
+El certificado puede ser:
+  - Autofirmado
+  - Firmados por una CA(Autoridad de Certificacion)
+  
+Los certificados estan en el directorio /etc/ssl/certs
+
+En el navegador(Mozilla Firefox)
+Preferencias/PrivacidadYSeguridad/VerCertificado
+
+-make-ssl-cert: Es muy sencilla y no queda demasiado bien
+-openssl: Es bastante buena
+-xca: Es la mas facil pero es potente
+-cerbot: Es la mas profesional
+
+openssl permite generar claves publicas/privadas
+
+La privada son para firmar
+La publica enviamos la informacion
+
