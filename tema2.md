@@ -352,4 +352,8 @@ openssl permite generar claves publicas/privadas
 
 La privada son para firmar
 La publica enviamos la informacion
+Todos tienen la clave publica y solo se puede descifrar con la clave privada que solo tienes tu.
 
+La clave privada y el certificado pueden estar en el mismo archivo.
+
+cerbot utoma
