@@ -297,3 +297,35 @@ service  apache2  restart
 ### Resultado
 
 ![https](assets/https.png)
+
+
+
+---
+# Apuntes
+
+## 
+
+### 
+
+Con el comando service solo funciona con start, restart, stop, status
+
+*systemctl start apache2*
+*systemctl restart apache2* 
+*systemctl stop apache2* 
+*systemctl status apache2* 
+
+*systemctl enable apache2* Para que se inicie cuando vuelvas a encender el equipo
+*systemctl disable apache2* Para que se no inicie cuando vuelvas a encender el equipo
+
+*service apache2 start*
+*service apache2 restart*
+*service apache2 stop*
+*service apache2 status*
+
+*a2dismod* deshabilita modulo
+*a2enmod* habilitar modulo
+
+*a2dissite* deshabilita sitio
+*a2emsite* habilita sitio
+
+Todos los sitios pueden ir por el mismo puerto
